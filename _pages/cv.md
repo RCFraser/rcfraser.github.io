@@ -11,35 +11,30 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* PhD in Economics & Business, University of Michigan (expected 2028)
+  * Joint program: Department of Economics and Ross School of Business
+* BS in Economics with honors in the major and minor in Mathematics, George Mason University, 2020
 
-Work experience
+Experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* 2026&ndash;present: **Dissertation Mentorship Participant** under Jennifer Bernard at the US Census Bureau Center for Economic Studies
+* 2025&ndash;present: **Graduate Student Research Assistant** for Sarah Miller at the University of Michigan, Department of Business Economics & Public Policy
+* 2025: **Graduate Student Instructor** (sole instructor) for BE 300: Applied Microeconomics at the University of Michigan, Ross School of Business
+* 2024&ndash;2025: **Graduate Student Research Assistant** for Amanda Kowalski at the University of Michigan, Department of Economics
+* 2024: **Graduate Student Research Assistant** (part-time) for Nirupama Rao and Max Risch at the University of Michigan, Ross School of Business
+* 2021&ndash;2023: **Predoctoral Research Assistant** for Amanda Kowalski at the University of Michigan and the National Bureau of Economic Research
+* 2020&ndash;2021: **Economist (GS-7)**, Bureau of Labor Statistics, Office of Employment and Unemployment Statistics
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
+Grants
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* 2024: *"How similar is sibling mortality in later life? A pilot study to examine determinants of population-level inequalities in mortality using US Census data."* Co-Investigator with Amanda Kowalski (PI). National Institute on Aging pilot funding through the Michigan Center on the Demography of Aging (MiCDA). $40,000.
+* 2024 & 2025: Rackham Graduate School Travel Grants. $1,000 each.
+
+Skills and Certifications
+======
+* US Census Bureau Special Sworn Status
+* PEERS Human Subjects Training
+* Programming and software: Stata, SAS, LaTeX
 
 Publications
 ======
@@ -58,7 +53,3 @@ Teaching
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
