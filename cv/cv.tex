@@ -1,0 +1,193 @@
+\documentclass[a4paper,11pt]{article}
+
+%------------------------------------------------------------------------
+% Packages & Basic Configuration
+%------------------------------------------------------------------------
+\usepackage[margin=1in]{geometry}   % Adjust page margins
+\usepackage{parskip}               % Space between paragraphs (no indent)
+\usepackage{tabularx}   % for auto-sized columns
+\usepackage{amsfonts,amssymb,amsmath}  % Math symbols if needed
+\usepackage{enumitem}              % Better control of list spacing
+\usepackage[colorlinks=true,
+            linkcolor=blue,  
+            citecolor=blue,  
+            urlcolor=blue]{hyperref}
+\usepackage{graphicx}              % For including images (if needed)
+
+%------------------------------------------------------------------------
+% Custom Section Command
+%   - Adds horizontal rule above section title for readability
+%------------------------------------------------------------------------
+\newcommand{\CVSection}[1]{%
+  \vspace{1.5em}
+  \hrule height 0.5pt
+  \vspace{0.8em}
+  \noindent\textbf{#1}
+  \vspace{0.5em}\par
+}
+
+% A new command for a "section" without a heading:
+\newcommand{\CVSectionNoTitle}{%
+    \vspace{2em}
+    \hrule
+    \vspace{0.8em}
+}
+
+%------------------------------------------------------------------------
+% Document
+%------------------------------------------------------------------------
+\begin{document}
+
+%------------------------------------------------------------------------
+% Minimalist Header (one line of text)
+%------------------------------------------------------------------------
+\noindent
+\begin{center} \textbf{Ryan Fraser} \\ Ann Arbor, MI, US $\mid$ rcfraser@umich.edu $\mid$ \href{https://lsa.umich.edu/econ/people/phd-students/rcfraser.html}{Department website}  \end{center} 
+
+
+%\href{mailto:rcfraser@umich.edu}{rcfraser@umich.edu} $\mid$
+%\href{https://www.yourwebsite.com}{yourwebsite.com}
+%\par
+
+\vspace{-3mm}
+%%------------------------------------------------------------------------
+%% Profile / Summary
+%%------------------------------------------------------------------------
+%\CVSection{Research Statement}
+%I am a second year PhD Student in Economics \& Business at the University of Michigan combining empirical and theoretical tools to answer questions in public, labor, and family economics.
+
+
+%%\CVSection{}
+%\CVSectionNoTitle
+%I am a second year PhD Student in Economics \& Business with interests in public, labor, and family economics. My research interests are largely applied, but I seek a better theoretical foundation.
+
+%------------------------------------------------------------------------
+% Education
+%------------------------------------------------------------------------
+\CVSection{Education}
+
+\begin{tabularx}{\linewidth}{@{}lX@{}}
+ 2023--2028 (expected)    & \textbf{PhD - Economics \& Business.} Department of Economics and Ross School of Business. University of Michigan, Ann Arbor. \\
+ 2017--2020    & \textbf{Bachelor of Science in Economics} with honors in the major and minor in Mathematics. George Mason University.
+\end{tabularx}
+
+
+
+%------------------------------------------------------------------------
+% Experience
+%------------------------------------------------------------------------
+\CVSection{Experience}
+
+%First column dates, second column autowraps position and description.
+\begin{tabularx}{\linewidth}{@{}lX@{}}
+2026--present     & \textbf{Dissertation Mentorship Participant} under Jennifer Bernard at the US Census Bureau Center for Economic Studies. \\
+2025--present     & \textbf{Graduate Student Research Assistant} for Sarah Miller at University of Michigan, Department of Business Economics \& Public Policy. \\ 
+2025 & \textbf{Graduate Student Instructor} (sole-instructor) for BE 300: Applied Microeconomics at University of Michigan, Ross School of Business. \\
+ 2024--2025    & \textbf{Graduate Student Research Assistant} for Amanda Kowalski at University of Michigan, Department of Economics. \\
+ 2024             & \textbf{Graduate Student Research Assistant (part time)} for Nirupama Rao and Max Risch at University of Michigan, Ross School of Business. \\ 
+ 2021--2023       & \textbf{Predoctoral Research Assistant} for Amanda Kowalski at University of Michigan, Department of Economics and National Bureau of Economic Research. \\ 
+2020--2021        & \textbf{Economist (GS-7)}. Bureau of Labor Statistics, Office of Employment and Unemployment Statistics.
+\end{tabularx}
+
+%------------------------------------------------------------------------
+% Advisors (Optional)
+%------------------------------------------------------------------------
+\CVSection{Advisors}
+\begin{tabular}{ll}
+     Amanda Kowalski & aekowals@umich.edu \\ 
+     James R Hines Jr. & jrhines@umich.edu \\ 
+     Sarah Miller & mille@umich.edu  \\ 
+     Damian Vergara & damiv@umich.edu 
+\end{tabular}
+
+%------------------------------------------------------------------------
+% Projects (Optional)
+%------------------------------------------------------------------------
+\CVSection{Works in Progress}
+
+``Investigating the Genetic and Environmental Influences on Income using US Census and IRS Data" with Jonathan Beauchamp, Jennifer Bernard, and Amanda Kowalski.
+%\begin{itemize}[leftmargin=*]
+%    \item ``Capturing the Diversity of Family Effects Across the United States with US Census Data" with Jonathan Beauchamp, Jennifer Bernard, and Amanda Kowalski.
+%\end{itemize}
+
+
+%------------------------------------------------------------------------
+% Awards & Honors (Optional)
+%------------------------------------------------------------------------
+\newpage
+\CVSection{Grants}
+
+\begin{tabularx}{\linewidth}{@{}lX@{}}
+ 2024    &  ``How similar is sibling mortality in later life? A pilot study to examine determinants of population-level inequalities in mortality using US Census data." Co-Investigator with Amanda Kowalski (PI). National Institute on Aging pilot funding through Michigan Center on the Demography of Aging (MiCDA) call for ``Enriching data infrastructure and methods to promote breakthroughs in the demography of aging.” \$40,000. \\
+        & \\
+         &  Rackham Graduate School Travel Grant. \$1,000. \\ 
+
+         & \\
+
+2025    & Rackham Graduate School Travel Grant. \$1,000.
+\end{tabularx}
+
+
+
+
+
+%------------------------------------------------------------------------
+% Conferences and Seminars
+%------------------------------------------------------------------------
+
+\CVSection{Presentations and workshops}
+\begin{tabularx}{\linewidth}{@{}lX@{}}
+2025 & The Advances in Social Genomics Conference (TAGC) at University of Wisconsin-Madison  \\
+    & \\
+    & University of Chicago Price Theory Summer Camp \\
+    & \\ 
+    & Federal Statistical Research Data Center (FSRDC) Annual Conference \\
+    & \\
+    & Labor Economics Lunch Seminar at the University of Michigan \\
+    & \\ 
+    & National Tax Association (NTA) Annual Conference \\
+    & \\
+    & Public Finance Lunch Seminar at the University of Michigan \\
+    & \\
+ 2024    &  Integrating Genetics and the Social Sciences (IGSS) Annual Conference at Stanford University. \\
+ & \\
+         &  Labor Economics Lunch Seminar at the University of Michigan. \\ 
+        & \\
+         &  Business Economics Lunch Seminar at the University of Michigan.
+\end{tabularx}
+
+% Skills
+%------------------------------------------------------------------------
+\CVSection{Skills and Certifications}
+
+\begin{itemize}[leftmargin=*]
+    \item US Census Bureau Special Sworn Status.
+    \item PEERS Human Subjects Training.
+    \item Programming and software: Stata, SAS, and \LaTeX. 
+   % \item \textbf{Programming Languages:} Python, C++, Java, ...
+   % \item \textbf{Software/Tools:} Git, Docker, \LaTeX, ...
+   % \item \textbf{Languages:} English (Fluent), Spanish (Intermediate), ...
+\end{itemize}
+
+
+%------------------------------------------------------------------------
+
+
+%------------------------------------------------------------------------
+% Publications (Optional)
+%------------------------------------------------------------------------
+%\CVSection{Publications (Optional)}
+%
+%\begin{itemize}[leftmargin=*]
+%    \item Author(s). \textit{Title of Paper}. Journal/Conference, Year.
+%    \item (Repeat for more publications, in reverse chronological order)
+%\end{itemize}
+
+%------------------------------------------------------------------------
+% References
+%------------------------------------------------------------------------
+%\CVSection{References}
+%
+%Available upon request.
+
+\end{document}
