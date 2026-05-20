@@ -1,0 +1,29 @@
+# Claude Code local config
+.claude/settings.local.json
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+*.nav
+*.snm
+*.vrb
+*.bcf
+*.run.xml
+*.xdv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor swap files
+*.swp
+*~
