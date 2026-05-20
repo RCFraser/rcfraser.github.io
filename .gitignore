@@ -1,6 +1,17 @@
 # Claude Code local config
 .claude/settings.local.json
 
+# Jekyll build output (AcademicPages)
+_site/
+.sass-cache/
+.bundle/
+/vendor/
+Gemfile.lock
+
+# Node/npm (only needed if rebuilding JS/CSS assets)
+node_modules/
+package-lock.json
+
 # LaTeX build artifacts
 *.aux
 *.log
@@ -20,10 +31,14 @@
 *.run.xml
 *.xdv
 
+# Local dev files
+local/
+
 # OS
 .DS_Store
 Thumbs.db
 
-# Editor swap files
+# Editors
+.vscode/
 *.swp
 *~
